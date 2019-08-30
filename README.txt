@@ -1,0 +1,3 @@
+My java project simulates a restaurant model using multi-threading. A thread is a separate computation process that might execute in parallel with other processes.
+ 
+The restaurant has only one cook and one waiter. The cook makes one dish at a time and immediately puts it on the table which only has 3 slots. When food is on the table, the waiter can serve dishes in order one at a time like a FIFO queue. Every food has a different cooking time and serving time. The table's slot is free when the serving time ends. The cook cannot start a new dish when three dishes are still sitting on the table. They will cook and serve the food in the order written on the food list.
